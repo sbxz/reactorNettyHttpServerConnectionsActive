@@ -1,0 +1,10 @@
+spring.application.name: reactorNettyHttpServerConnectionsActive
+server:
+  netty:
+    idle-timeout: 5s
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
